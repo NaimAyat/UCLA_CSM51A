@@ -7,3 +7,6 @@
 ## Verilog
 * https://www.edaplayground.com/
 * (Optional) Dowload v0.9.7 from http://iverilog.icarus.com/
+## Logisim
+* Optional download, graphical tool for designing and simulating (v2.7.1)
+* http://sourceforge.net/projects/circuit
