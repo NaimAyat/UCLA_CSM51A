@@ -16,4 +16,7 @@
 * Question: what is a physical quantity is continuous?
   * Map it into a discrete form
   * Ex: sound waves are discrete but may look continous due to fine granularity (16-bit allows for 64000 levels)
+* Question: what if information is complex?
+  * Represent discrete information with binary signals; assign some sequence of 1s and 0s to represent more abstract concepts, like colors or characters
+  * How many distinct elements can be represented in n bits? 2<sup>n</sup>
   
