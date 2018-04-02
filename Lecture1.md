@@ -19,4 +19,6 @@
 * Question: what if information is complex?
   * Represent discrete information with binary signals; assign some sequence of 1s and 0s to represent more abstract concepts, like colors or characters
   * How many distinct elements can be represented in n bits? 2<sup>n</sup>
-  
+* A thermostat gets temperature readings from a sensor in the range of 68 to 82 degrees, and needs to know it to an accuracy (resolution) of 2 degrees. How would you represent it?
+  1. Quantize the finite set
+  2. Encode; 68 is 000, 70 is 001, and so on.
