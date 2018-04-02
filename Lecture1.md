@@ -13,3 +13,7 @@
 ## Module 2: The Digital Abstraction Representing Data Digitally
 * Digital system: discrete-valued input signals enter digital system, which produces discrete-valued output signals
 * Binary is a special case of discrete
+* Question: what is a physical quantity is continuous?
+  * Map it into a discrete form
+  * Ex: sound waves are discrete but may look continous due to fine granularity (16-bit allows for 64000 levels)
+  
