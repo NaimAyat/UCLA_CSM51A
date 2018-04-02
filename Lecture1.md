@@ -4,3 +4,6 @@
 * Two in-class, closed-notes quizzes.
 * Midterm: May 7, in-class. One 2-sided cheat sheet allowed.
 * Final: June 14, two 2-sided cheat sheets allowed.
+## Verilog
+* https://www.edaplayground.com/
+*
