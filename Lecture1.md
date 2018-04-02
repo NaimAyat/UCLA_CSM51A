@@ -6,4 +6,4 @@
 * Final: June 14, two 2-sided cheat sheets allowed.
 ## Verilog
 * https://www.edaplayground.com/
-*
+* (Optional) Dowload v0.9.7 from http://iverilog.icarus.com/
