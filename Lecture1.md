@@ -25,3 +25,12 @@
      * Note: multiple ways to encode. 
      * "Thermometer code" would assign: 68=0000000, 70=0000001, 72=0000011, and so on. 
      * "One-hot" representation would assign: 68=10000000, 70=01000000, 72=00100000, and so on.
+### How would you represent
+* A date?
+  * 20 bits = ceil(log<sub>2</sub>(2018 * 365))
+  * Month, day, year = 4+5+11 bits
+* A playing card?
+  * 6 bits
+  * Number in deck (54) needs 2+4 bits (i.e. 2<sup>6</sup>)
+  * Suit, number 4+13 bits
+  * ecoded suit, decoded number
