@@ -10,3 +10,6 @@
 ## Logisim
 * Optional download, graphical tool for designing and simulating (v2.7.1)
 * http://sourceforge.net/projects/circuit
+## Module 2: The Digital Abstraction Representing Data Digitally
+* Digital system: discrete-valued input signals enter digital system, which produces discrete-valued output signals
+* Binary is a special case of discrete
