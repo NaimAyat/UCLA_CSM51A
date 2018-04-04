@@ -10,3 +10,5 @@
 * Digital: noise added to input, no noise in output
   * Output constrained in a smaller range than the input range
 ### TTL Logic (Transistor-Transistor Logic)
+* Noise that can be handled in low threshold (0) = input low - output low = V<sub>IL</sub> - V<sub>OL</sub>
+* Noise that can be handled in high threshold (1) = input high - output high = V<sub>IH</sub> - V<sub>OH</sub>
