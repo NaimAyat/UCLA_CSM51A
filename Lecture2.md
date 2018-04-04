@@ -23,3 +23,13 @@
 #### Closure Property
 * Combinational logic circuits are closed under acyclic composition
   * Writing combinational circuits without creating loops in the circuit yields another type of combinational circuit
+## Module 4: Boolean Algebra
+* Absorption property
+  * x ^ (x v y) = x 
+  * x v (x ^ y) = x
+* Combining Property
+  * (x ^ y) v (x ^ ~y) = x
+  * (x v y) ^ (x v ~y) = x
+* DeMorgan's Laws
+  * ~(x ^ y) = ~x v ~y
+  * ~(x v y) = ~x ^ ~y
