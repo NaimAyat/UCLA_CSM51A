@@ -5,3 +5,7 @@
   * How many bits are needed to represent days of the year?
     * 9 bits, there are 365 days in year and 2<sup>9</sup> = 512
 * Binary is essentially saying a certain range in voltage represents a 0 and a certain range represents a 1
+### Noise in Analogy and Digital Signals
+* Analog: noise added to input, input faithfully reproduced (noise in output)
+* Digital: noise added to input, no noise in output
+  * Output constrained in a smaller range than the input range
