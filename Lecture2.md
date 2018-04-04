@@ -20,3 +20,6 @@
 ### Combinational Logic
 * Output is a function of current input
 * Memoryless
+#### Closure Property
+* Combinational logic circuits are closed under acyclic composition
+  * Writing combinational circuits without creating loops in the circuit yields another type of combinational circuit
