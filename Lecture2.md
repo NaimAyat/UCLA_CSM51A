@@ -9,3 +9,4 @@
 * Analog: noise added to input, input faithfully reproduced (noise in output)
 * Digital: noise added to input, no noise in output
   * Output constrained in a smaller range than the input range
+### TTL Logic (Transistor-Transistor Logic)
