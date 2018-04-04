@@ -19,3 +19,4 @@
 * Noise margins symmetric
 ### Combinational Logic
 * Output is a function of current input
+* Memoryless
