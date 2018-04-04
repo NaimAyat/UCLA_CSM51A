@@ -14,6 +14,8 @@
 * Noise that can be handled in high threshold (1) = input high - output high = V<sub>IH</sub> - V<sub>OH</sub>
 * Noise margins not necessarily symmetric
 * V<sub>DD</sub>: supply voltage, theoretically battery voltage; in practice slightly lower
-### CMOS Logic
+### CMOS (Complementary Metal–Oxide–Semiconductor) Logic
 * Modern standard
 * Noise margins symmetric
+### Combinational Logic
+* Output is a function of current input
