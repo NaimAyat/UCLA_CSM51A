@@ -17,6 +17,7 @@
   * V<sub>OL</sub> maximum output voltage represented as a 0
   * V<sub>IH</sub> < V<sub>OH</sub>
   * V<sub>IL</sub> > V<sub>OL</sub>
+  * Difference V<sub>OH</sub> - V<sub>IH</sub> = noise margin high (V<sub>NH</sub>)
 ## Discrete vs. Analog Representation
 * Tradeoff: noiseless vs. data density
 ## [Practice Problems](practiceProblems/week1.pdf)
