@@ -15,7 +15,8 @@
   * V<sub>IL</sub> maximum input voltage represented as a 0
   * V<sub>OH</sub> minimum output voltage represented as a 1
   * V<sub>OL</sub> maximum output voltage represented as a 0
-
+  * V<sub>IH</sub> < V<sub>OH</sub>
+  * V<sub>IL</sub> > V<sub>OL</sub>
 ## Discrete vs. Analog Representation
 * Tradeoff: noiseless vs. data density
 ## [Practice Problems](practiceProblems/week1.pdf)
