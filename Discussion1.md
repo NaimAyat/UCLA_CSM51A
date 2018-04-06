@@ -13,7 +13,7 @@
   * Left-most bit = least significant bit (LSB)
   * V<sub>IH</sub> minumum input voltage represented as a 1
   * V<sub>IL</sub> maximum input voltage represented as a 0
-  * V<sub>OL</sub> minimum output voltage represented as a 1
+  * V<sub>OH</sub> minimum output voltage represented as a 1
   * V<sub>OL</sub> maximum output voltage represented as a 0
 
 ## Discrete vs. Analog Representation
