@@ -1,4 +1,5 @@
 # Discussion 1: April 4, 2018
+## Overview
 * TA office: T 2-3pm
 * Intro
 * Binary representation
