@@ -11,3 +11,5 @@
   * If we have n buts, we can represent 2<sup>n</sup> states
   * Right-most bit = most significant bit (MSB)
   * Left-most bit = least significant bit (LSB)
+## [Practice Problems](practiceProblems/week1.pdf)
+* 1.11
