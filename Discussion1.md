@@ -20,6 +20,8 @@
 ### Discrete vs. Analog Representation
 * Tradeoff: noiseless vs. data density
 ## Gray Code
+* Adjacent states differ in at most one bit position. Examples: 001, 001, 011, 010, 110, 111, 101, 100
 ## [Practice Problems](practiceProblems/week1.pdf)
 * 1.11. (i) Need 6 bits (ii) Need 4 bits to represent cards ace through king, plus 2 bits to represent the four different suits
 * 1.2. (a) 0.5V (b) 0.3V (c) 0.4V, since V<sub>OH</sub>-V<sub>IH</sub> = 0.4V (d) Assuming V<sub>DD</sub> = 2.5V, answer is 0.3V.
+* 1.9. 000, 001, 011, 010, 110, 111, 101, 100, circle back to 000
