@@ -5,3 +5,7 @@
 * Binary representation
 * Noise margin
 * Boolean algebra
+## Representation
+* Binary 
+  * Multiple bits to represent multiple states
+  * If we have n buts, we can represent 2<sup>n</sup> states
