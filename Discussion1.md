@@ -23,8 +23,8 @@
 ## Types of Binary Representations
 * n = 8 states
   * Plain: 000, 001, 010, 011, 100, 101, 110, 111 (needs log<sub>2</sub>n bits)
-  * Thermometer: 0000000, 0000001, 0000011, 0000111, 0001111, 0011111, 0111111, 1111111 (needs 2<sup>n</sup>-1)
-  * One-hot: 00000001, 00000010, 00000100, 00001000, 00010000, 00100000, 01000000, 10000000 (needs 2<sup>n</sup>)
+  * Thermometer: 0000000, 0000001, 0000011, 0000111, 0001111, 0011111, 0111111, 1111111 (needs 2<sup>n</sup>-1 bits)
+  * One-hot: 00000001, 00000010, 00000100, 00001000, 00010000, 00100000, 01000000, 10000000 (needs 2<sup>n</sup> bits)
 
 ## [Practice Problems](practiceProblems/week1.pdf)
 * 1.11. (i) Need 6 bits (ii) Need 4 bits to represent cards ace through king, plus 2 bits to represent the four different suits
