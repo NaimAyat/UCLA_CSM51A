@@ -9,3 +9,5 @@
 * Binary 
   * Multiple bits to represent multiple states
   * If we have n buts, we can represent 2<sup>n</sup> states
+  * Right-most bit = most significant bit (MSB)
+  * Left-most bit = least significant bit (LSB)
