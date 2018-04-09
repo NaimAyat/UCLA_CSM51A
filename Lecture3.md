@@ -29,3 +29,5 @@
   * Ex: f(a,b,c) = (a v b v c) ^ (a v ~b v ~c) ^ (a v ~b v c)
 * Example: find the dual function and write it in normal form for f(x,y) = (x ^ ~y) v (~x ^ y)
   * f<sup>D</sup> = (x v ~y) ^ (x v ~y) = (x ^ ~x) v (x ^ y) v( ~y ^ ~x) v (~y ^ y) = (x ^ y) v (~x ^ ~y)
+## Karnaugh Maps
+* [Visual tool for simplifying Boolean expressions](https://www.youtube.com/watch?v=A0XupfXiKIo)
