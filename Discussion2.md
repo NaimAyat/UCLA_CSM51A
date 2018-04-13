@@ -14,7 +14,7 @@
 * Express in POS
   1. Find SOP of logic 0
   2. Apply De Morgan's Law
-## ![Problems](practiceProblems/week2.pdf)
+## [Problems](practiceProblems/week2.pdf)
 ### Ex. 3.23
 * Simplify (~x ^ y ^ ~z) v (~x ^ ~y ^ ~z) v (x ^ ~y ^ ~z)
   * (~x ^ y ^ ~z) v (~x ^ ~y ^ ~z) v (~x ^ ~y ^ ~z) v (x ^ ~y ^ ~z)
