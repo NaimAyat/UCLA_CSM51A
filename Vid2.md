@@ -44,3 +44,32 @@
 * Make sure delay of paths match to remove the glitch
   * cX timing is same as cN
 ## Video 07: Decoders and Encoders
+### Combinational Building Blocks
+* Decoder (binary to one-hot)
+* Encoder (one-hot to binary)
+* Multiplexer (select one of N)
+* Arbiter (pick first of N)
+### One-Hot Representation
+* Represent a set of N elements with N bits
+* Exactly one bit is set
+* Ex: encode numbers 0 through 7
+  * 000 = 00000001 = 0
+  * 001 = 00000010 = 1
+  * 010 = 00000100 = 2 and so on
+### Decoder
+* Takes binary input and converts it to one-hot
+  ```
+  b[i] = 1 if a = i
+    b = 1<<a
+  ```
+### Encoder
+* Inverse of a decoder
+* Converts one-hot input signal to binary-encoded output signal
+## Video 08: Multiplexers
+* Multiplexer
+  * n k-bit inputs
+  * n-bit one-hot select signal s
+  * Used as data selectors
+  * Selects one of n k-bit inputs, s must be one-hot, `b=a[i] if s[i]===1`
+### Tri-state Gates
+* A gate with a control input such that if the control input is 1, then output implements the gate function, and if it is 0, the ouotput is electrically disconnected
