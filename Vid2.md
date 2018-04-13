@@ -73,3 +73,16 @@
   * Selects one of n k-bit inputs, s must be one-hot, `b=a[i] if s[i]===1`
 ### Tri-state Gates
 * A gate with a control input such that if the control input is 1, then output implements the gate function, and if it is 0, the ouotput is electrically disconnected
+### Logic with Muxes
+* Like encoders, muxes can be used for any arbitrary logical function
+* sb from a decoder is most of the AND function, the MUX performs a big OR 
+#### Simplifying Mux Logic
+* How can we reduce the size of the multiplexer?
+  * Factor one of the sb and apply it as an input
+* Approach: look at inputs to find commonalities and/or differences
+#### Building Muxes out of Smaller Muxes
+* Suppose you have one multiplexer with n inputs and another with m inputs
+  * Can create m\*n input multiplexer
+* If you have a two input mux, can build anything
+  * Two input muxes can be used to create an arbitrarily large mux
+  * Arbitrarily large muxes can be used to implement any logical function
