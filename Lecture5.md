@@ -11,3 +11,8 @@
   * Examples: `8'b000100111`, `2'hFF`, `8'b001_0111` (underscore allowed to improve readability)
   * Undefined: `x` represents uncertainty, usually because two nodes are driving the same bit and conflicting
   * High impedance: not driven by an output `z`
+### Declarative Statements
+* Provide logical relations between iputs and outputs
+* Assign outputs to be some continuous function of the inputs
+* Uses C-like syntax
+* Outputs are wires, and can be single or multiple bits
