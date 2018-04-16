@@ -30,6 +30,7 @@
   * The sequence that is run only at the beginning of execution
 * `always`
   * Can be synthesized: each block is run concurrently and executed when activated
+  * LHS must be declared as registers, RHS can be registers or wires
 * Inside an `initial` or `always` block, can use standard confrol flow statements
   ```
   if (<conditional>) then
