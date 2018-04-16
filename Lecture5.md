@@ -22,3 +22,20 @@
   assign     x = aaa;
   assign     aaa = bbb;
   ```
+### Procedural Statements
+* Still needs flow contol statements (implies sequential ordering)
+  * Denoted with keyword `always` or `initial` provides functionality of a program that executes sequentially
+* `initial`
+  * Purely behavioral for test bench
+  * The sequence that is run only at the beginning of execution
+* `always`
+  * Can be synthesized: each block is run concurrently and executed when activated
+* Inside an `initial` or `always` block, can use standard confrol flow statements
+  ```
+  if (<conditional>) then
+    <statements>; //statements can be compounded by using begin <statements>; end
+  else
+    <statements>;
+  case (<var>)
+    <value>:<statements>
+  ```
