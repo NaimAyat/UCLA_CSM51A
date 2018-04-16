@@ -39,4 +39,5 @@
     <statements>;
   case (<var>)
     <value>:<statements>
+  endcase
   ```
