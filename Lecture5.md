@@ -16,3 +16,9 @@
 * Assign outputs to be some continuous function of the inputs
 * Uses C-like syntax
 * Outputs are wires, and can be single or multiple bits
+#### Order of Execution
+* Don't assume any particular order, as each statement occurs concurrently. For example:
+  ```
+  assign     x = aaa;
+  assign     aaa = bbb;
+  ```
