@@ -24,5 +24,12 @@
   ```
   wire [4-1:0]y4 = 4'b1110; //b means binary representation
   wire [4-1:0]y5 = 4'd12 //d means decimal (we need 4 bits to represent 12)
+  wire y4 = y5;
   ```
-  
+* Conditional assignment
+  ```
+  /* If x1 = x2, then x3 is one */
+  assign x3 = (x1==x2)?1'b1:1'b0;
+  ```
+* Bitwise operators: `&`, `|`  
+* Logical operators: `&&`, `||`
