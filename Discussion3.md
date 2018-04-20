@@ -60,3 +60,29 @@
       
       end
       ```
+* Non-blocking assignment (best for sequential logic)
+  ```
+  x1 <= x2;
+  ```
+* Blocking assignment
+  ```
+  x1 = x2;
+  ```
+* If-else
+  ```
+  always (*) begin
+  
+  if (conditional) begin
+  
+  end
+  
+  else if (condition2) begin
+  
+  end
+  
+  else begin
+  
+  end
+  
+  end
+  ```
