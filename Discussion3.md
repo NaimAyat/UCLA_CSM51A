@@ -31,5 +31,20 @@
   /* If x1 = x2, then x3 is one */
   assign x3 = (x1==x2)?1'b1:1'b0;
   ```
-* Bitwise operators: `&`, `|`  
-* Logical operators: `&&`, `||`
+* Bitwise vs. logical operators
+  * Bitwise operators: `&`, `|`  
+  * Logical operators: `&&`, `||`
+  ```
+  assign x1 = 4'b0110;
+  assign x2 = 4'b1000;
+  assign x3 = x1 | x2; //x3 = 4'b1111
+  assign x3 = x1 || x2; //x3 = 1'b1
+  ```
+* Modules
+  ```
+  ModuleName m1 (.a1(a1_1), .a2(a2_1)));
+  ModuleName m1 (a1_1, a2_1);
+  ModuleName m2 (.a1(a1_2), .a2(a2_2)));
+  ```
+* `always` blocks
+  * Combinational logic or sequential logic
