@@ -48,3 +48,15 @@
   ```
 * `always` blocks
   * Combinational logic or sequential logic
+    * Combinational:
+      ```
+      always @ (*)begin 
+      
+      end
+      ```
+    * Sequential:
+      ```
+      always @ (negedge rst or posedge clk)begin
+      
+      end
+      ```
