@@ -86,3 +86,12 @@
   
   end
   ```
+* Case
+  ```
+  case (x1)
+  4'0000: xxx: yyy=aaa; //x1 is 4 bits and equal to 0000
+  4'0001: xxx: yyy=bbb; //x1 is 4 bits and equal to 0001
+  
+  default: yyy=qqq;
+  endcase
+  ```
