@@ -21,3 +21,10 @@
 ### Misc
 * Most positive number achievable in 2's compliment: 2<sup>bits-1</sup>-1. Most negative: -2<sup>bits-1</sup>
 * Largest unsigned number achievable: 2<sup>bits</sup>-1
+## Multiplexers
+* Simply selects one of the inputs
+  * Using selector variables
+## Gray Code
+* Convert binary to gray:
+  1. Take down left-most bit
+  2. XOR left-most bit with second left-most bit, write result. XOR second left-most bit with third left-most bit, write result...
