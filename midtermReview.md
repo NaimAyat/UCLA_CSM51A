@@ -14,3 +14,7 @@
 2. Represent right side of decimal in binary form
    * Multiply decimal part of original number by 2. Left side of result is bit. Right side gets multiplied by 2. Repeat until pattern found.
 3. Concatenate steps 1 and 2. Shift decimal to the left to get into scientific notation. For each shift, multiply by two. For example, eight shifts requires the number to be multiplied by 2<sup>8</sup>
+4. Convert to IEEE format.
+   1. Sign bit: set as necessary
+   2. Exponent: add scientific notation exponent to 127 (bias). Convert result to 8-bit binary
+   3. Mantissa: take RHS of scientific notation. Stop mantissa at 23 bits to get 32 total bits.
