@@ -29,4 +29,6 @@
   1. Take down left-most bit
   2. XOR left-most bit with second left-most bit, write result. XOR second left-most bit with third left-most bit, write result...
 ## Boolean Algebra
-* ![Logic simplification](https://qph.fs.quoracdn.net/main-qimg-729a869e39bf393f97e4c37d89594e8c)
+![Logic simplification](https://qph.fs.quoracdn.net/main-qimg-729a869e39bf393f97e4c37d89594e8c)
+* DNF from truth table: sum of product rows that result in 1s
+* CNF from truth table: product of sum rows that result in 0s, but negate each variable
