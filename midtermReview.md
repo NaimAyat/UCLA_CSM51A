@@ -18,3 +18,6 @@
    1. Sign bit: set as necessary
    2. Exponent: add scientific notation exponent to 127 (bias). Convert result to 8-bit binary
    3. Mantissa: take RHS of scientific notation. Stop mantissa at 23 bits to get 32 total bits.
+### Misc
+* Most positive number achievable in 2's compliment: 2<sup>bits-1</sup>-1. Most negative: -2<sup>bits-1</sup>
+* Largest unsigned number achievable: 2<sup>24</sup>-1
