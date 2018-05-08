@@ -20,4 +20,4 @@
    3. Mantissa: take RHS of scientific notation. Stop mantissa at 23 bits to get 32 total bits.
 ### Misc
 * Most positive number achievable in 2's compliment: 2<sup>bits-1</sup>-1. Most negative: -2<sup>bits-1</sup>
-* Largest unsigned number achievable: 2<sup>24</sup>-1
+* Largest unsigned number achievable: 2<sup>bits</sup>-1
