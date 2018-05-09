@@ -37,3 +37,6 @@
 * Box dimensions must be power of 2
 * Boxes as large as possible
 * Boxes as few as possible to cover all 1s
+* Prime implicant: implicant not contained in any other implicant
+* Essential prime implicant: prime implicant that includes at least one 1 not included in any other prime implicant
+* Don't cares are treated as 1s, but they do not make a prime implicant essential
