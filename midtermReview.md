@@ -32,3 +32,8 @@
 ![Logic simplification](https://qph.fs.quoracdn.net/main-qimg-729a869e39bf393f97e4c37d89594e8c)
 * DNF from truth table: sum of product rows that result in 1s
 * CNF from truth table: product of sum rows that result in 0s, but negate each variable
+## Karnaugh Maps
+* Box around 1s
+* Box dimensions must be power of 2
+* Boxes as large as possible
+* Boxes as few as possible to cover all 1s
