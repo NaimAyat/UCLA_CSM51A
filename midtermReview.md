@@ -40,3 +40,6 @@
 * Prime implicant: implicant not contained in any other implicant
 * Essential prime implicant: prime implicant that includes at least one 1 not included in any other prime implicant
 * Don't cares are treated as 1s, but they do not make a prime implicant essential
+## NAND Logic
+* OR ![OR](https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/OR_from_NAND.svg/200px-OR_from_NAND.svg.png)
+## NOR Logic
