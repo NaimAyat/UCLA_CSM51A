@@ -44,5 +44,5 @@
 * OR 
   ![OR](https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/OR_from_NAND.svg/200px-OR_from_NAND.svg.png)
 * XOR
-  ![XOR](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/XOR_from_NAND.svg/450px-XOR_from_NAND.svg.png)
+  ![XOR](https://upload.wikimedia.org/wikipedia/commons/f/fa/XOR_from_NAND.svg)
 ## NOR Logic
