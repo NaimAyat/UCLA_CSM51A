@@ -42,7 +42,15 @@
 * Don't cares are treated as 1s, but they do not make a prime implicant essential
 ## NAND Logic
 * OR 
+
   ![OR](https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/OR_from_NAND.svg/200px-OR_from_NAND.svg.png)
 * XOR
+
   ![XOR](https://upload.wikimedia.org/wikipedia/commons/f/fa/XOR_from_NAND.svg)
 ## NOR Logic
+* AND
+  
+  ![AND](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/AND_from_NOR.svg/200px-AND_from_NOR.svg.png)
+* XOR
+
+  ![XOR](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/XOR_from_NOR.svg/320px-XOR_from_NOR.svg.png)
