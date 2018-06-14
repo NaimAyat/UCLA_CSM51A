@@ -30,3 +30,12 @@ x v (x ^ y) = x
 * Example: dual of (a ^ b) v (b ^ c) is (a v b) ^ (b v c)
 ### Complement of a Function
 ~f(a, b, c, ...) = dual of f where variables are inverted
+## Truth Table to Boolean Logic
+### Minterm
+* An expression that ANDs all the inputs of the function in direct or negated forms
+* Ex. minterms of f(a, b, c) are a ^ b ^ c, ~a ^ b ^ c, ~a ^ ~b ^ c, etc.
+### Maxterm
+* Expression that ORs together all the inputs of a function in direct or negated forms
+* Ex. maxterms of f(a, b, c) are a v b v c, ~a v b v c, ~a v ~b v c, etc.
+### Relationship of Minterms and Maxterms
+* A truth table row for 0000 has minterm ~d ^ ~c ^ ~b ^ ~a, and maxterm d v c v b v a
