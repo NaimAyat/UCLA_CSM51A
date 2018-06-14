@@ -71,6 +71,9 @@ x v (x ^ y) = x
 
 ![Decoder2](Images/f3.png)
 
+#### 6 to 64 decoder from three 2 to 4 decoders
+![Decoder3](Images/F5.PNG)
+
 ### Encoder
 * Inverse of a decoder, converts one-hot input to binary output
 
