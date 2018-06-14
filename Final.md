@@ -41,4 +41,4 @@ x v (x ^ y) = x
 * A truth table row for 0000 has minterm ~d ^ ~c ^ ~b ^ ~a, and maxterm d v c v b v a
 * Note that a minterm of a row equals the inverse of its maxterm
 
-[Minterms](Images/f1.png)!
+![Minterms](Images/f1.png)
