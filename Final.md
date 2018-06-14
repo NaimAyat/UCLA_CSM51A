@@ -73,3 +73,5 @@ x v (x ^ y) = x
 
 ### Encoder
 * Inverse of a decoder, converts one-hot input to binary output
+
+![Encoder](Images/f4.PNG)
