@@ -104,3 +104,6 @@ x v (x ^ y) = x
 ## Integers in Binary
 ### Convert Decimal to Binary
 * Divide decimal number by 2, write remainder as LSB (right-most)
+### Convert Decimal to Binary to Hex
+* Divide decimal number by 2, write remainder as LSB (right-most)
+* Split binary into groups of four from right; convert each group to a hex symbol (0-F)
