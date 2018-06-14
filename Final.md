@@ -63,3 +63,7 @@ x v (x ^ y) = x
   1. binary 000 = one-hot 00000001 = decimal 0
   2. binary 001 = one-hot 00000010 = decimal 1
   3. binary 010 = one-hot 00000100 = decimal 2 and so on
+### Decoder
+* Converts symbols from one encoding to another
+* A binary to one-hot decoder converts a symbol from binary to one-hot
+![Decoder](Images/f2.png)
