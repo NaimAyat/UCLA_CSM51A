@@ -107,3 +107,45 @@ x v (x ^ y) = x
 ### Convert Decimal to Binary to Hex
 * Divide decimal number by 2, write remainder as LSB (right-most)
 * Split binary into groups of four from right; convert each group to a hex symbol (0-F)
+### Negative Numbers
+#### Sign Magnitude
+* Add an extra bit on the left side: 0 for positive, 1 for negative
+#### One's Complement
+* Just flip the bits
+#### Two's Complement
+* Represents a number -x as 2<sup>n</sup> - x
+* Starting from the right, keep everything up to the LSB (the right-most 1). Flip the rest.
+## Real Numbers
+### Binary Coded Decimal
+* Simply represent each decimal digit as a block of 4 binary bits
+  * For example, 27.183 would be 0010 0111. 0001 1000 0011
+### Binary Fixed Point
+* Represent integer part normally in binary. After decimal, left-most bit is a half, second left-most is a quarter, third left-most is an eighth, etc.
+1. Write integer part in binary
+2. Keep multiplying decimal portion by 2. Write the resulting integer (1 or 0) as the leftmost decimal place each time
+### Binary Floating Point
+* Left-most bit is sign
+### IEEE 32-Bit Floating Point Format
+* Left-most bit is sign (1=neg), next eight are exponent, last 23 are mantissa
+1. Represent left side of decimal in binary form
+2. Represent right side of decimal in binary form
+   * Multiply decimal part of original number by 2. Left side of result is bit. Right side gets multiplied by 2. Repeat until pattern found.
+3. Concatenate steps 1 and 2. Shift decimal to the left to get into scientific notation. For each shift, multiply by two. For example, eight shifts requires the number to be multiplied by 2<sup>8</sup>
+4. Convert to IEEE format.
+   1. Sign bit: set as necessary
+   2. Exponent: add scientific notation exponent to 127 (bias). Convert result to 8-bit binary
+   3. Mantissa: take RHS of scientific notation. Stop mantissa at 23 bits to get 32 total bits.
+### Error
+* R(x) is binary number representing real number x
+* V(b) is value of binary number
+* Absolute error = |V(R(x))-x|. Absolute accuracy is the max absolute|error|
+  * Gives a number
+* Relative error = |(V(R(x))-x)/x|. Relative accuracy is max relative |error|
+  * Gives a percentage
+### Half Adder
+* No carry input
+
+![HA](Images/f10.PNG)
+
+### Full Adder
+* Carry input, carry output, sum output
