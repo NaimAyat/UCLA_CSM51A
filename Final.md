@@ -66,4 +66,8 @@ x v (x ^ y) = x
 ### Decoder
 * Converts symbols from one encoding to another
 * A binary to one-hot decoder converts a symbol from binary to one-hot
+
 ![Decoder](Images/f2.png)
+
+![Encoder](Images/f3.png)
+
