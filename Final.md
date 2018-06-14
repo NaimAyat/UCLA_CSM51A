@@ -153,3 +153,7 @@ x v (x ^ y) = x
 ![FA](Images/f11.png)
 
 ![FA2](Images/f12.png)
+
+![FA3](Images/f13.PNG)
+
+![FA4](Images/f14.PNG)
