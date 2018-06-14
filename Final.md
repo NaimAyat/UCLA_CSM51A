@@ -149,3 +149,5 @@ x v (x ^ y) = x
 
 ### Full Adder
 * Carry input, carry output, sum output
+
+![FA](Images/f11.png)
