@@ -161,3 +161,15 @@ x v (x ^ y) = x
 ### Multiplication
 
 ![mult](Images/mult.png)
+
+### FSM
+![fsm](Images/fsm.png)
+
+### Moore FSM
+* Output logic does not depend on input; it only depends on the current state
+
+### Mealy FSM
+* Output logic depends on input and current state
+
+### D Flip-Flop
+![dff](Images/dff.PNG)
