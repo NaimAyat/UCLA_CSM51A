@@ -157,3 +157,7 @@ x v (x ^ y) = x
 ![FA3](Images/f13.PNG)
 
 ![FA4](Images/f14.PNG)
+
+### Multiplication
+
+![mult](Images/mult.png)
