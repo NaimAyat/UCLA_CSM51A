@@ -173,3 +173,10 @@ x v (x ^ y) = x
 
 ### D Flip-Flop
 ![dff](Images/dff.PNG)
+
+## Time and Delay
+* Propagation delay - time from last input change until last output change (minimum delay)
+* Contamination delay - time from first input change until first output change (maximum delay)
+
+![delay](Images/delay.PNG)
+
