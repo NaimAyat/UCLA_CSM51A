@@ -28,3 +28,5 @@ x v (x ^ y) = x
 * Replace ANDs with ORs
 * Replace 0s with 1s and vice versa
 * Example: dual of (a ^ b) v (b ^ c) is (a v b) ^ (b v c)
+### Complement of a Function
+~f(a, b, c, ...) = dual of f where variables are inverted
