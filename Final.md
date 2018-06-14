@@ -151,3 +151,5 @@ x v (x ^ y) = x
 * Carry input, carry output, sum output
 
 ![FA](Images/f11.png)
+
+![FA2](Images/f12.png)
