@@ -24,3 +24,7 @@ x v (x ^ y) = x
 (x ^ y) v (x ^ ~y) = x
 ### DeMorgan's
 ~(x ^ y) = ~x v ~y
+### Dual of a Boolean Function
+* Replace ANDs with ORs
+* Replace 0s with 1s and vice versa
+* Example: dual of (a ^ b) v (b ^ c) is (a v b) ^ (b v c)
