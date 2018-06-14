@@ -84,3 +84,7 @@ x v (x ^ y) = x
 * Used as data selector; selects on of n k-bit inputs
 
 ![Multiplexer](Images/f6.PNG)
+### Tri-State Gates
+* Type of multiplexer that can disconnect input from output
+
+![tristate](Images/f7.png)
