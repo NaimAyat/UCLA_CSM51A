@@ -47,6 +47,9 @@ x v (x ^ y) = x
 * Fully disjunctive normal form: we ONLY OR minterms in a sum-of-products; every single term has all inputs. If it's missing an input, it is not fully
 ### Conjunctive Normal Form
 * Maxterms ANDed in a product-of-sums
+### Truth Table to DNF / CNF
+* DNF from truth table: sum of product rows that result in 1s
+* CNF from truth table: product of sum rows that result in 0s, but negate each variable
 ## Logic Reduction (Karnaugh Maps)
 * Implicant: a product term that is true implies that the function is true
 * Prime implicant: aan implicant that cannot be made any larger and still be an implicant
