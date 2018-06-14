@@ -39,3 +39,6 @@ x v (x ^ y) = x
 * Ex. maxterms of f(a, b, c) are a v b v c, ~a v b v c, ~a v ~b v c, etc.
 ### Relationship of Minterms and Maxterms
 * A truth table row for 0000 has minterm ~d ^ ~c ^ ~b ^ ~a, and maxterm d v c v b v a
+* Note that a minterm of a row equals the inverse of its maxterm
+
+[Images/f1.png](minterms)!
