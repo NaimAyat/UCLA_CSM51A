@@ -93,3 +93,14 @@ x v (x ^ y) = x
 
 ### 16:1 mux using five 4:1 muxes
 ![kbitmux2](Images/f9.PNG)
+## Arbiters and Comparators
+### Arbiter
+* Accepts n inputs, outputs one-hot of size n
+* Grants the 1 to the requesting bit with highest priority
+### Equality Comparator
+* Accepts two inputs of size n, outputs 1 if equal and 0 if not
+### Magnitude Comparator
+* Accepts two inputs of size n, outputs 1 if the first input is larger than the second
+## Integers in Binary
+### Convert Decimal to Binary
+* Divide decimal number by 2, write remainder as LSB (right-most)
