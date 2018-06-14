@@ -78,3 +78,9 @@ x v (x ^ y) = x
 * Inverse of a decoder, converts one-hot input to binary output
 
 ![Encoder](Images/f4.PNG)
+## Multiplexer
+* n inputs of k bits
+* n-bit one-hot select signal s
+* Used as data selector; selects on of n k-bit inputs
+
+![Multiplexer](Images/f6.PNG)
