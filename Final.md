@@ -56,3 +56,10 @@ x v (x ^ y) = x
    * Each group (prime implicant) must be rectangular and a size that is a power of 2
 3. An essential prime implicant contains at least 1 minterm not included in any other groups
 4. Sum all essential groups to obtain a minimum sum of products
+## Encoders and Decoders
+### One-Hot
+* Represent n elements with n bits, exactly one bit is set
+* Example: encode numbers zero through 7
+  1. binary 000 = one-hot 00000001 = decimal 0
+  2. binary 001 = one-hot 00000010 = decimal 1
+  3. binary 010 = one-hot 00000100 = decimal 2 and so on
