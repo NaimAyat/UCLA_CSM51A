@@ -178,5 +178,5 @@ x v (x ^ y) = x
 * Propagation delay - time from last input change until last output change (minimum delay)
 * Contamination delay - time from first input change until first output change (maximum delay)
 
-![delay](Images/delay.PNG)
+![delay](Images/delay.png)
 
