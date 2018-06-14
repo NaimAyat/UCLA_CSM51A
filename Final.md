@@ -90,3 +90,6 @@ x v (x ^ y) = x
 ![tristate](Images/f7.png)
 ### k-bit Binary Select Multiplexer
 ![kbitmux](Images/f8.PNG)
+
+### 16:1 mux using five 4:1 muxes
+![kbitmux2](Images/f9.PNG)
